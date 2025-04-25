@@ -1,7 +1,14 @@
+"use client"
+import HomeMotion from "@/components/HomeMotion";
+import Navbar from "@/components/Navbar";
+
 export default function Home() {
+
   return (
-    <div>
-      <h1>isa</h1>
-    </div>
+    <>
+        <Navbar />
+        <HomeMotion />
+    </>
   );
 }
+
